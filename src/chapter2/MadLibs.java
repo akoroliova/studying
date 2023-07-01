@@ -17,9 +17,6 @@ public class MadLibs {
         System.out.println("Please input an adjective.");
         String adjective = scanner.next();
 
-
-
-
         scanner.close();
 
         //Output the result
