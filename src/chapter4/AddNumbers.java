@@ -1,17 +1,17 @@
 package chapter4;
-
 import java.util.Scanner;
-
 /*
  * DO WHILE LOOP:
  * Write a program that allows a user to enter two numbers,
  * and then sums up the two numbers. The user should be able to
  * repeat this action until they indicate they are done.
-Doesnt check the condition until AFTER the loop is run one time.
+* Purpose of DO WHILE LOOP - run this at least one time
+* DO WHILE LOOP doesn't check the condition until AFTER the loop is run one time, so there's no condition after 'do' in braces, and so the condition goes in braces after 'while',
+* the condition goes without operators because it's either 'true' or 'false anyway' ('again' is a boolean).
  */
 public class AddNumbers {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
 
