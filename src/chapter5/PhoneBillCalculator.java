@@ -31,7 +31,7 @@ public class PhoneBillCalculator {
     //create separate method to calculate the tax, tax is 15% on subtotal
     //subtotal = baseCost + overageFee
     //tax = (baseCost + overageFee) * 0.15
-    public static double calculateTax(double baseCost, double overageFee){ //method doesn't know of anything except the parameters(=arguments) which were passed into it. Суть метода - что-то посчитать и вернуть результат
+    public static double calculateTax(double baseCost, double overageFee){
         double rate = 0.15;
         double tax = (baseCost + overageFee) * rate;
         return tax;
