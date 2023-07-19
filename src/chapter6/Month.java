@@ -4,6 +4,8 @@ public class Month { //within a class, two different methods with same name
     //have to differ by parameter list!
     //so that they are perceived as differently defined two methods
 
+    //перегрузка методов - когда есть два метода с одинаковьім именем, но с разньім набором параметров
+
     public static String getMonth(int month){
         switch(month){
             case 1: return "January";

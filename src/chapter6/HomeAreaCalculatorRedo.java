@@ -16,7 +16,7 @@ public class HomeAreaCalculatorRedo {
         // They do not have knowledge of state within the class
 
 
-        HomeAreaCalculatorRedo calculator = new HomeAreaCalculatorRedo(); //here we've instantiated [?]
+        HomeAreaCalculatorRedo calculator = new HomeAreaCalculatorRedo(); //here we've instantiated [?] єто создание обьекта/инстанса
         // inside 'main' class body, so that we can keep state and then call the other methods,
         // because there can be no such thing as state (assigning values?) in static method
         // (we can only call to a static method itself)
