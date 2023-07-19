@@ -18,6 +18,7 @@ public class Greetings {
         //'void' shows which data type this method returns to the code that calls it. If doesn't return any value - then 'void'. If returns int - then 'int'. And so on.
         //if return type is anything than 'void', then the method should have a 'return' statement to return a value of method's return type (int, double,..).
         //'main' is the name of method, by convention it should begin with a verb (like 'calculateSum'), or with a question (for booleans, e.g. 'isSumNegative').
+        //we usually have 'main' method in class when we'll have other methods in this class to execute, so 'main' is an entry point.
         //'(String[] args)' is a parameter list which can be empty if no external data is needed to complete this method's task.
         //Parenthesis holds a list of all the data (parameter list) that should be supplied to this method.
         //'main(String[] args)' is a method's signature (consists of a method's name and a parameter list).
